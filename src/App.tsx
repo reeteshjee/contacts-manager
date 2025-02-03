@@ -55,7 +55,7 @@ function App() {
   return (
     <>
       <ContactContext.Provider value={value}>
-        <Router>
+        <Router basename="/contacts-manager">
           <Header></Header>
           <div className="max-w-7xl mx-auto px-6 py-8">
             <Routes>
